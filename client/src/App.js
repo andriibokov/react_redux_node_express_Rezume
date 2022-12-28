@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import About from "./components/About";
 import LanguageBtn from "./components/LanguageBtn";
+import Slider from "./components/Slider";
 
 function App() {
   const [data, setData] = useState(null);
@@ -36,6 +37,7 @@ function App() {
     <div className="flex flex-col	bg-gray-500">
       <LanguageBtn listLang={listLang} changeLanguage={changeLanguage} />
       <About data={data} />
+      <Slider/>
     </div>
   );
 }
