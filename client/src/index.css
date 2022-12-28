@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+#root {
+  display: flex;
+  justify-content: center;
+  background-color: #736d81;
+}
+.swiper {
+  padding-bottom: 54px;
+}

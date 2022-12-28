@@ -34,10 +34,10 @@ function App() {
 
 
   return (
-    <div className="flex flex-col	bg-gray-500">
+    <div className="flex flex-col  pb-20 bg-gray-500">
       <LanguageBtn listLang={listLang} changeLanguage={changeLanguage} />
       <About data={data} />
-      <Slider/>
+      <Slider />
     </div>
   );
 }
